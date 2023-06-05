@@ -76,6 +76,8 @@ class ModelTrainer:
 
            best_model = model[best_model_name]
 
+           print(f"Best model found, Model name is {best_model_name}, Accuracy Score: {best_model_score}")
+           print('\n','*'*85,'\n',sep="")
            logging.info(f"Best model found, Model name is {best_model_name}, Accuracy Score: {best_model_score}")
 
 
